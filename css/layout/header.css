@@ -1,0 +1,70 @@
+/* Start Upperbar  */
+.upperbar {
+  z-index: 10;
+}
+@media (max-width: 468px) {
+  .upperbar .container > div {
+    justify-content: center !important;
+  }
+}
+/* Start navbar  */
+.navgationbar {
+  z-index: 100;
+  transition: all 0.2s ease-in-out;
+  top: 57px;
+}
+@media (max-width: 992px) {
+  .navbar-nav {
+    opacity: 0.95;
+  }
+}
+.navbar-toggler-icon {
+  background-image: url(../../img/Hamburger_icon_white.svg.png) !important;
+  margin: 0;
+}
+.navbar-toggler {
+  border: none !important;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+.dropdown-toggle {
+  border: 0;
+}
+.navbar-collapse {
+  padding: 1rem;
+}
+
+/* Start Slider  */
+.owl-carousel-hero .item {
+  height: 90vh;
+}
+.slider {
+  background-image: url(../../img/header/slider.jpg);
+}
+.slider__info {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slider__info h1 {
+  font-size: calc(1rem + 4.5vw);
+}
+/* .owl-carousel-hero .owl-dots {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+.owl-carousel-hero .owl-dots .active span,
+.owl-carousel-testimonial .owl-dots .active span {
+  background-color: var(--main-color) !important;
+}
+@media (max-width: 768px) {
+  .owl-carousel-hero .owl-theme .owl-dots .owl-dot {
+    display: none;
+  }
+} */

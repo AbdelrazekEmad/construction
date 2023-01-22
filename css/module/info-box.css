@@ -1,0 +1,14 @@
+.info__box {
+  padding: 3rem;
+}
+.info__box hr {
+  border-top: 2px solid;
+  opacity: 1;
+}
+.services__card__text h6 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.services__card__text p {
+  font-size: 0.75rem;
+}

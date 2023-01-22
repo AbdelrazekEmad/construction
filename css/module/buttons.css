@@ -1,0 +1,44 @@
+#scroll-top {
+  z-index: 100;
+  bottom: 0.5rem;
+  right: 1rem;
+  display: none;
+  opacity: 0.7;
+  transition: opacity var(--main-transition) ease-in-out;
+}
+#scroll-top:hover {
+  opacity: 1;
+}
+.wa-icon {
+  z-index: 1000;
+  width: calc(1.5rem + 1.75vw);
+  height: calc(1.5rem + 1.75vw);
+  line-height: calc(1.5rem + 1.75vw);
+  left: 0;
+}
+.main__btn {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  padding: 0.75rem 1.75rem;
+  border: none;
+  transition: all var(--main-transition) ease-in-out;
+}
+.main__icon {
+  padding: 0.75rem;
+  margin-inline: 0.25rem;
+  border-radius: 3px;
+  background-color: transparent;
+  width: 15px !important;
+  height: 15px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__icon i {
+  font-size: 1rem;
+  margin: 0 auto;
+  width: 15px;
+  height: 15px;
+}

@@ -1,0 +1,55 @@
+/* Global */
+.main__color {
+  color: var(--main-color);
+}
+.main__icon {
+  border: 1px solid white;
+}
+.main__icon:hover {
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+.main-hover:hover {
+  color: var(--main-color) !important;
+}
+.wa-icon {
+  z-index: 1000;
+  background-color: #25d366;
+}
+.main__btn {
+  color: white;
+  background-color: var(--main-color);
+}
+.main__btn:hover {
+  background-color: var(--secound-color);
+}
+.main__heading::after {
+  background-color: var(--main-color);
+}
+/* Start Home Page */
+/* Start navigation  */
+.upperbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-item .active {
+  color: var(--main-color) !important;
+}
+@media (max-width: 992px) {
+  .navbar-nav {
+    background-color: transparent;
+  }
+}
+/* .navbar-collapse {
+  background-color: var(--secound-color);
+} */
+
+/* Start info section  */
+.info__box {
+  color: white;
+  background-color: var(--main-color);
+}
+
+/* Start services section  */
+.services {
+  background-color: #f7f7f7;
+}

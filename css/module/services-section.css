@@ -1,0 +1,25 @@
+.services__card {
+  background-image: linear-gradient(rgb(26, 32, 46, 0.7), rgb(26, 32, 46, 0.7)),
+    url(../../img/services/Screenshot\ 2023-01-19\ 165158.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 1rem;
+  margin-inline: auto;
+  border-radius: 10px;
+}
+.services__btn {
+  background-color: transparent;
+  border: none;
+}
+.services__btn a {
+  color: white;
+  text-transform: capitalize;
+}
+.services__btn:hover a {
+  text-decoration: underline;
+}

@@ -1,0 +1,32 @@
+:root {
+  --main-color: #20ace4;
+  --secound-color: #4f526e;
+  --main-transition: 0.3s;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 1000vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+  transition: all var(--main-transition) ease-in-out;
+}
+ul {
+  list-style: none;
+}
