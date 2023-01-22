@@ -57,3 +57,4 @@ function handilGallaryContent() {
     el.style.display = "block";
   });
 }
+
