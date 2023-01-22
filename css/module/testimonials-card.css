@@ -1,0 +1,31 @@
+.owl-carousel-testimonials {
+  position: relative;
+}
+.testimonials__card {
+  padding-inline: 1rem;
+  padding-block: 3rem;
+}
+.testimonials__card h6 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.owl-carousel-testimonials .owl-nav {
+  font-size: 1.5rem;
+}
+.owl-carousel-testimonials .owl-nav .owl-next,
+.owl-carousel-testimonials .owl-nav .owl-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 1rem;
+}
+.owl-carousel-testimonials .owl-nav .owl-next {
+  right: -6%;
+}
+.owl-carousel-testimonials .owl-nav .owl-prev {
+  left: -6%;
+}
+.owl-carousel-testimonials .owl-nav .owl-next span,
+.owl-carousel-testimonials .owl-nav .owl-prev span {
+  padding: 0.25rem 0.75rem;
+}

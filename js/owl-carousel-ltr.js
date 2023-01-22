@@ -14,10 +14,11 @@ $(".owl-carousel-hero").owlCarousel({
   },
 });
 
-$(".owl-carousel").owlCarousel({
+$(".owl-carousel-testimonials").owlCarousel({
   loop: true,
   margin: 10,
   nav: true,
+  dots: false,
   navSpeed: 500,
   autoplay: true,
   autoplaySpeed: 750,

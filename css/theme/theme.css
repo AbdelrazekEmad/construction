@@ -61,6 +61,24 @@
   color: #777;
 }
 
+/* testimonials */
+.testimonials__card {
+  background-color: #f7f7f7;
+  border: 1px solid #dddddd;
+}
+.owl-carousel-testimonials .owl-nav .owl-next span,
+.owl-carousel-testimonials .owl-nav .owl-prev span {
+  border: 1px solid #b7b7b7;
+  color: #333;
+}
+.owl-carousel-testimonials .owl-nav .owl-next:hover,
+.owl-carousel-testimonials .owl-nav .owl-prev:hover {
+  background-color: transparent;
+}
+.testimonials__card {
+  background-color: #f7f7f7;
+  border: 1px solid #dddddd;
+}
 /* footer  */
 footer,
 .copyright {

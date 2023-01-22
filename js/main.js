@@ -26,11 +26,6 @@ window.onscroll = function () {
   }
 };
 
-// cheap of dots for slider
-$(".owl-carousel-hero .owl-dot span").css({
-  background: "white",
-});
-
 let filterTabs = document.querySelectorAll(".projects__navs li");
 let gallaryContent = Array.from(
   document.querySelectorAll(".Projects__iteams .row .all")
@@ -58,3 +53,10 @@ function handilGallaryContent() {
   });
 }
 
+
+// cheap of dots for all slider
+// $(".owl-carousel-testimonials .owl-dot span").css({
+
+//   border: "1px solid black",
+//   padding: "1rem",
+// });
