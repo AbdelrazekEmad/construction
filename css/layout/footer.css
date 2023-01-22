@@ -1,25 +1,22 @@
-/* Start footer */
-/* footer {
-    background-color: var(--secound-color);
-  }
-  .mail__input {
-    border: 1px solid var(--muted-color);
-  }
-  .mail__input button i {
-    height: 100%;
-    width: 100%;
-    padding: 1rem;
-    transition: color var(--main-transition) ease-in-out;
-  }
-  .mail__input button i:hover {
-    background-color: var(--main-color);
-    color: var(--secound-color);
-  }
-  .mail__input input {
-    padding-block: 1rem;
-    padding-inline-start: 1rem;
-  }
-  footer .mail__input input:focus-visible {
-    outline: 0;
-  }
-   */
+.footer__navs .main__heading {
+  margin-bottom: 2rem;
+}
+.footer__navs li {
+  margin-bottom: 1rem;
+}
+.footer__navs li a {
+  text-transform: capitalize;
+}
+.footer__navs li a::before {
+  content: "\f105";
+  font: var(--fa-font-solid);
+  font-size: 0.75rem;
+  margin-inline-end: 0.5rem;
+}
+.footer__navs li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.copyright {
+  border-top: 1px solid ;
+}

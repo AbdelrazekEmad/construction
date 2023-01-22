@@ -57,6 +57,12 @@
 .why-us {
   background-color: #f7f7f7;
 }
-.text-color{
-  color:#777;
+.text__color {
+  color: #777;
+}
+
+/* footer  */
+footer,
+.copyright {
+  background-color: #111;
 }
