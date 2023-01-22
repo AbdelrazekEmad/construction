@@ -1,8 +1,7 @@
 .main__heading {
   position: relative;
-  font-weight: 600;
-  text-transform: capitalize;
-  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .main__heading::after {
   content: "";

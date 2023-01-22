@@ -1,0 +1,15 @@
+.why-us__image {
+    height: 100%
+}
+.why-us__content {
+    margin-block: 5rem;
+}
+.why-us__content ul li {
+  margin-bottom: 1rem;
+}
+.why-us__content ul li::before {
+  content: "\f00c ";
+  font: var(--fa-font-solid);
+  color: var(--main-color);
+  margin-inline-end: .5rem;
+}
