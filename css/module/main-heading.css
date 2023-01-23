@@ -11,3 +11,7 @@
   bottom: -10%;
   left: 0;
 }
+h2.main__heading,
+h3.main__heading {
+  padding-bottom: 1rem;
+}

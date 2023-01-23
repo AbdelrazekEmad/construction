@@ -1,0 +1,22 @@
+.main__heading::after {
+  right: 0;
+}
+/* Start Projects  */
+.projects__navs li:not(:last-child)::after {
+  display: none;
+}
+.projects__navs li:not(:last-child)::before {
+  content: "";
+  height: 40%;
+  width: 2px;
+  background-color: var(--main-color);
+  position: absolute;
+  left: 0 !important;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Start why us  */
+.why-us__image {
+  right: 0;
+}

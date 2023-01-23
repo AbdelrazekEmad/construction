@@ -9,11 +9,8 @@ function topFunction() {
 window.onscroll = function () {
   // change navbar visabilty
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navgationbar").style.top = "0px";
     document.getElementById("navgationbar").style.backgroundColor = "black";
-    document.getElementById("navgationbar").style.opacity = "0.95";
   } else {
-    document.getElementById("navgationbar").style.top = "85px";
     document.getElementById("navgationbar").style.backgroundColor =
       "transparent";
   }
@@ -52,7 +49,6 @@ function handilGallaryContent() {
     el.style.display = "block";
   });
 }
-
 
 // cheap of dots for all slider
 // $(".owl-carousel-testimonials .owl-dot span").css({

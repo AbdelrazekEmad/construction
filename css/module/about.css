@@ -1,0 +1,63 @@
+.about__banar .about__slider {
+  background-image: url(../../img/about/about-hero.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.about__slider .slider__info {
+  width: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slider__info h1 {
+  font-size: calc(1rem + 2vw);
+}
+
+/* Start about us section  */
+.about-us {
+  position: relative;
+}
+.about-us__image {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(../../img/about/about-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.about-us__content {
+  padding-block: 5rem;
+  margin-inline-end: 50%;
+  padding-inline-end: 2rem;
+}
+.ojective ul li {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.ojective ul li::before {
+  content: "\f00c";
+  font: var(--fa-font-solid);
+  color: var(--main-color);
+  margin-inline-end: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .about-us__image {
+    position: inherit;
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+  }
+  .about-us__content {
+    padding-block: 2rem;
+    margin-inline-start: 0;
+    padding-inline-start: 0;
+  }
+}
+
+/* End about us section  */

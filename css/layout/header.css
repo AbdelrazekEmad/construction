@@ -11,7 +11,7 @@
 .navgationbar {
   z-index: 100;
   transition: all 0.2s ease-in-out;
-  top: 57px;
+  top: 0;
 }
 @media (max-width: 992px) {
   .navbar-nav {
@@ -52,19 +52,6 @@
 .slider__info h1 {
   font-size: calc(1rem + 4.5vw);
 }
-/* .owl-carousel-hero .owl-dots {
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
+#navbarNavDropdown {
+  padding: 0;
 }
-.owl-carousel-hero .owl-dots .active span,
-.owl-carousel-testimonial .owl-dots .active span {
-  background-color: var(--main-color) !important;
-}
-@media (max-width: 768px) {
-  .owl-carousel-hero .owl-theme .owl-dots .owl-dot {
-    display: none;
-  }
-} */

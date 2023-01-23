@@ -3,6 +3,7 @@ $(".owl-carousel-hero").owlCarousel({
   loop: true,
   margin: 0,
   nav: false,
+  dots: false,
   navSpeed: 500,
   autoplay: true,
   autoplaySpeed: 750,
@@ -15,23 +16,24 @@ $(".owl-carousel-hero").owlCarousel({
   },
 });
 
-$(".owl-carousel-testimonial").owlCarousel({
+$(".owl-carousel-testimonials").owlCarousel({
   loop: true,
   margin: 10,
   nav: false,
+  dots: false,
   navSpeed: 500,
   autoplay: true,
-  autoplaySpeed: 650,
+  autoplaySpeed: 750,
   animateOut: "fadeOut",
   rtl: true,
   responsive: {
     0: {
       items: 1,
     },
-    1000: {
+    600: {
       items: 2,
     },
-    1500: {
+    1000: {
       items: 3,
     },
   },
