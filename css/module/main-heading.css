@@ -13,6 +13,7 @@
 }
 h1.main__heading,
 h2.main__heading,
-h3.main__heading {
+h3.main__heading,
+h4.main__heading {
   padding-bottom: 1rem;
 }

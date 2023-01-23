@@ -38,3 +38,26 @@ $(".owl-carousel-testimonials").owlCarousel({
     },
   },
 });
+
+$(".owl-carousel-clients").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: false,
+  dots: false,
+  navSpeed: 500,
+  autoplay: true,
+  autoplaySpeed: 750,
+  animateOut: "fadeOut",
+  rtl: true,
+  responsive: {
+    0: {
+      items: 2,
+    },
+    600: {
+      items: 4,
+    },
+    1000: {
+      items: 6,
+    },
+  },
+});
