@@ -20,3 +20,9 @@
 .why-us__image {
   right: 0;
 }
+
+/* about us page  */
+.about-us__image {
+  right: unset;
+  left: 0;
+}
