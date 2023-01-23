@@ -1,6 +1,4 @@
 .services__card {
-  background-image: linear-gradient(rgb(26, 32, 46, 0.7), rgb(26, 32, 46, 0.7)),
-    url(../../img/services/Screenshot\ 2023-01-19\ 165158.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
@@ -22,4 +20,24 @@
 }
 .services__btn:hover a {
   text-decoration: underline;
+}
+.service-1 {
+  background-image: linear-gradient(rgb(26, 32, 46, 0.6), rgb(26, 32, 46, 0.6)),
+  url(../../img/services/services-1.webp);
+}
+.service-2 {
+  background-image: linear-gradient(rgb(26, 32, 46, 0.6), rgb(26, 32, 46, 0.6)),
+  url(../../img/services/services-2.webp);
+}
+.service-3 {
+  background-image: linear-gradient(rgb(26, 32, 46, 0.6), rgb(26, 32, 46, 0.6)),
+  url(../../img/services/services-3.webp);
+}
+.service-4 {
+  background-image: linear-gradient(rgb(26, 32, 46, 0.6), rgb(26, 32, 46, 0.6)),
+  url(../../img/services/services-4.webp);
+}
+.service-5 {
+  background-image: linear-gradient(rgb(26, 32, 46, 0.6), rgb(26, 32, 46, 0.6)),
+  url(../../img/services/services-5.webp);
 }

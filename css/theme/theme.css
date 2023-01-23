@@ -79,6 +79,18 @@
   background-color: #f7f7f7;
   border: 1px solid #dddddd;
 }
+
+/* Start join us */
+.join-us {
+  background-color: var(--main-color);
+}
+.join-us .main__btn {
+  border: 1px solid white;
+}
+.join-us .main__btn:hover {
+  background-color: #2594c1
+}
+
 /* footer  */
 footer,
 .copyright {

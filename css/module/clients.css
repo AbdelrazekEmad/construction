@@ -1,0 +1,15 @@
+.clients__card .client {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  padding: 0.4rem;
+
+}
+.clients__card .client:hover {
+  opacity: 1;
+}
