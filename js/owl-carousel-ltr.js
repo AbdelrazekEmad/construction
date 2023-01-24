@@ -58,3 +58,15 @@ $(".owl-carousel-clients").owlCarousel({
     },
   },
 });
+
+$(".owl-carousel-single-product").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  autoHeight: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+  },
+});

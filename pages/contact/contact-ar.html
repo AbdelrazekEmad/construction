@@ -137,23 +137,32 @@
                         تفضل بزيارتنا في المكان أو تواصل معنا عبر النموذج أدناه للتحدث أكثر عن مشروعك أو فكرتك.
                     </p>
                     <div class="contact__form">
-                        <form>
-                            <div class="mb-3">
-                                <label for="exampleInputName1" class="form-label">الأسم</label>
-                                <input type="text" class="form-control" id="exampleInputName1">
+                        <form id="checkout_form" method="POST" autocomplete="off" name="google-sheet">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingName" placeholder="Name" required>
+                                <label for="floatingName">الأسم</label>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">الأيميل</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
-                                </div>
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="floatingEmail" placeholder="Email">
+                                <label for="floatingEmail">الأيميل</label>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">باسورد</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            <div class="form-floating">
+                                <select class="form-select mt-3" id="floatingSelect"
+                                    aria-label="Floating label select example">
+                                    <option value="power-works">أعمال الكهرباء</option>
+                                    <option value="plumbing-works">أعمال السباكة</option>
+                                    <option value="carpentry-works">أعمال النجارة</option>
+                                    <option value="finishing-works">أعمال التشطيبات</option>
+                                    <option value="contracting-works">أعمال المقاولات</option>
+                                </select>
+                                <label for="floatingSelect">يرجى أختيار خدمة</label>
                             </div>
-                            <button type="submit" class="main__btn">إرسال</button>
+                            <div class="form-floating">
+                                <textarea class="form-control mt-3" placeholder="Leave Your Massage Here"
+                                    id="floatingTextarea" style="height: 100px"></textarea>
+                                <label for="floatingTextarea">الرسالة</label>
+                            </div>
+                            <button type="submit" class="main__btn mt-3">إرسال</button>
                         </form>
                     </div>
                 </div>

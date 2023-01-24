@@ -31,7 +31,7 @@
 .upperbar {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-.nav-item .active {
+.active {
   color: var(--main-color) !important;
 }
 @media (max-width: 992px) {
@@ -88,11 +88,16 @@
   border: 1px solid white;
 }
 .join-us .main__btn:hover {
-  background-color: #2594c1
+  background-color: #2594c1;
 }
 
 /* footer  */
 footer,
 .copyright {
   background-color: #111;
+}
+
+/* service-details  */
+.service-details {
+  background-color: #f7f7f7;
 }

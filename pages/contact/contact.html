@@ -139,23 +139,32 @@
                         to talk more about your project or idea.
                     </p>
                     <div class="contact__form">
-                        <form>
-                            <div class="mb-3">
-                                <label for="exampleInputName1" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="exampleInputName1">
+                        <form id="checkout_form" method="POST" autocomplete="off" name="google-sheet">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingName" placeholder="Name" required>
+                                <label for="floatingName">Name</label>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
-                                </div>
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="floatingEmail" placeholder="Email">
+                                <label for="floatingEmail">Email</label>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            <div class="form-floating">
+                                <select class="form-select mt-3" id="floatingSelect"
+                                    aria-label="Floating label select example">
+                                    <option value="power-works">Power Works</option>
+                                    <option value="plumbing-works">Plumbing Works</option>
+                                    <option value="carpentry-works">Carpentry Works</option>
+                                    <option value="finishing-works">Finishing Works</option>
+                                    <option value="contracting-works">Contracting Works</option>
+                                </select>
+                                <label for="floatingSelect">Please Choose Service</label>
                             </div>
-                            <button type="submit" class="main__btn">Submit</button>
+                            <div class="form-floating">
+                                <textarea class="form-control mt-3" placeholder="Leave Your Massage Here"
+                                    id="floatingTextarea" style="height: 100px"></textarea>
+                                <label for="floatingTextarea">Massage</label>
+                            </div>
+                            <button type="submit" class="main__btn mt-3">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -169,7 +178,7 @@
     <section class="map">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.339129409488!2d46.689528314316256!3d24.68086625851183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03bdb1f8c5d5%3A0xdc67b98d218f44ec!2zQmV2YXRlbCAtINio2YrZgdin2KrZitmE!5e0!3m2!1sen!2seg!4v1674488369040!5m2!1sen!2seg"
-            height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
     <!-- End map  -->
@@ -280,6 +289,7 @@
     <!-- owl-carousel LTR file  -->
     <script src="../../js/owl-carousel-ltr.js"></script>
     <!-- Main Script  -->
+    <script src="../../js/form.js"></script>
     <script src="../../js/main.js"></script>
 </body>
 
