@@ -141,16 +141,18 @@
                     <div class="contact__form">
                         <form id="checkout_form" method="POST" autocomplete="off" name="google-sheet">
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingName" placeholder="Name" required>
+                                <input type="text" class="form-control" id="floatingName" placeholder="Name" required
+                                    name="name">
                                 <label for="floatingName">Name</label>
                             </div>
                             <div class="form-floating">
-                                <input type="email" class="form-control" id="floatingEmail" placeholder="Email">
+                                <input type="email" class="form-control" id="floatingEmail" placeholder="Email"
+                                    name="email">
                                 <label for="floatingEmail">Email</label>
                             </div>
                             <div class="form-floating">
                                 <select class="form-select mt-3" id="floatingSelect"
-                                    aria-label="Floating label select example">
+                                    aria-label="Floating label select example" name="services">
                                     <option value="power-works">Power Works</option>
                                     <option value="plumbing-works">Plumbing Works</option>
                                     <option value="carpentry-works">Carpentry Works</option>
@@ -161,7 +163,7 @@
                             </div>
                             <div class="form-floating">
                                 <textarea class="form-control mt-3" placeholder="Leave Your Massage Here"
-                                    id="floatingTextarea" style="height: 100px"></textarea>
+                                    id="floatingTextarea" style="height: 100px" name="massage"></textarea>
                                 <label for="floatingTextarea">Massage</label>
                             </div>
                             <button type="submit" class="main__btn mt-3">Submit</button>
